@@ -3,17 +3,62 @@ body {
   color: #434455;
   background-color: #ffff;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 ol,
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 a {
   text-decoration: none;
 }
-
+img {
+  display: block;
+}
+.section-paddings {
+  padding: 120px 0;
+}
 /*header  */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+  background: #fff;
+}
+.pade-navigation {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+.address {
+  margin-left: auto;
+}
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -22,6 +67,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
+  margin-right: 76px;
 }
 .link-nav {
   font-weight: 500;
@@ -29,6 +75,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
+  align-items: center;
 }
 
 .logo-part {
@@ -62,6 +111,10 @@ a {
 /*hero   */
 .title {
   background-color: #2e2f42;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 188px 0;
 }
 
 .title-header {
@@ -71,6 +124,8 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
+  max-width: 497px;
+  margin: 0 auto 48px auto;
 }
 
 .title-buton {
@@ -81,12 +136,18 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  min-width: 169px;
+  margin: 0 auto;
+  display: block;
 }
 .title-buton:hover,
 .title-buton:focus {
   background: #404bbf;
 }
-/*benefits  */
+/*advantages  */
+.advantages {
+  padding: 120px 0;
+}
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -96,7 +157,13 @@ a {
   text-align: center;
   text-transform: capitalize;
 }
-
+.advantages-list-item {
+  width: 264px;
+}
+.advantages-list {
+  display: flex;
+  column-gap: 15px;
+}
 .advantages-text {
   font-weight: 400;
   font-size: 16px;
@@ -107,6 +174,7 @@ a {
 /* team */
 .team {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 .section-team {
   font-weight: 700;
@@ -117,12 +185,20 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 72px;
 }
-
+.team-title-text {
+  padding: 32px 0;
+  text-align: center;
+}
 .team-list-item {
   background-color: #ffffff;
+  width: 264px;
 }
-
+.team-list {
+  display: flex;
+  column-gap: 24px;
+}
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -132,6 +208,7 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
 }
 
 .team-profession {
@@ -141,10 +218,14 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin: 32px 78.5;
+  margin-bottom: 8px;
 }
 
 /*   Portfolio*/
-
+.portfolio {
+  padding: 120px 0;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -154,8 +235,22 @@ a {
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
-
+.portfolio-time {
+  display: flex;
+  column-gap: 24px;
+  flex-wrap: wrap;
+  text-align: left;
+  row-gap: 48px;
+}
+.portfolio-list {
+  width: 360px;
+  border: 1px solid #e7e9fc;
+}
+.section-portfolio {
+  padding: 120px 0;
+}
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
@@ -163,6 +258,12 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 8px;
+}
+.portfolio-title-text {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-description {
   font-weight: 400;
@@ -190,6 +291,7 @@ a {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
+  margin-bottom: 16px;
 }
 .web-titl {
   color: #f4f4fd;
@@ -204,7 +306,9 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   font-family: "Roboto", sans-serif;
+  max-width: 264px;
 }
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
