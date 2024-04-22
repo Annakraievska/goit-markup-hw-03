@@ -177,7 +177,6 @@ img {
 }
 .advantages-list-item {
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 .advantages-list {
   display: flex;
@@ -212,7 +211,8 @@ img {
 }
 .team-list-item {
   background-color: #ffffff;
-  width: 264px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list {
   display: flex;
