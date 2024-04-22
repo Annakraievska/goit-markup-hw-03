@@ -159,7 +159,7 @@ img {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  overflow: hidden;
+  overflow: visually-hidden;
 }
 
 .section-advantages {
@@ -216,7 +216,7 @@ img {
 }
 .team-list {
   display: flex;
-  margin-right: 24px 0;
+  gap: 24px;
 }
 .team-name {
   font-weight: 500;
